@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+
+    &,
+    th,
+    td {
+        border: 1px solid gainsboro;
+    }
+
+    th {
+        background-color: #eee;
+    }
+
+    th,
+    td {
+        padding: 4px;
+    }
+}

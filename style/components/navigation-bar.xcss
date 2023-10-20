@@ -1,0 +1,58 @@
+aside {
+    h1 {
+        margin-block: 0 20px;
+    }
+
+    nav {
+        > .label {
+            margin-block: 40px 5px;
+            color: gray;
+            text-shadow: 0 1px 0 #fff4;
+        }
+
+        .item {
+
+            & [active] {
+                > a {
+                    color: --main-color;
+                    opacity: 1;
+                    font-weight: 600;
+                }
+            }
+
+            & [active],
+            & :has(div.sub-items > a[active]) {
+                > div.sub-items {
+                    display: block;
+                }
+            }
+
+            a {
+                display: block;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: black;
+                opacity: .75;
+                margin-bottom: 5px;
+                text-shadow: 0 1px 0 #fff9;
+
+                & :hover {
+                    opacity: 1;
+                    text-decoration: underline;
+                }
+            }
+
+            > div.sub-items {
+                display: none;
+                margin-left: 15px;
+                margin-bottom: 20px;
+
+                > a[active] {
+                    color: --main-color;
+                    opacity: 1;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

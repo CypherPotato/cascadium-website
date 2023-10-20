@@ -1,0 +1,44 @@
+.code-block {
+    position: relative;
+    display: block;
+
+    .tabs {
+        display: block;
+
+        > .tab-item {
+            display: inline-block;
+            padding: 4px 8px;
+            color: black;
+            margin-right: 1px;
+            cursor: pointer;
+            opacity: .5;
+            font-weight: 600;
+            text-transform: lowercase;
+            border-bottom: 2px solid transparent;
+
+            & :hover {
+                opacity: 1;
+            }
+
+            & :active {
+                color: --main-color;
+            }
+
+            & [current] {
+                opacity: 1;
+                background-color: --main-color;
+                color: white;
+            }
+        }
+    }
+
+    > .code-item {
+        display: none;
+
+        > pre {
+            border: 1px solid #ddd;
+            border-top: 2px solid --main-color;
+            margin-top: 0;
+        }
+    }
+}

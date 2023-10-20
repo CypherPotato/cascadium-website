@@ -1,0 +1,28 @@
+:root {
+    --main-color: #390fd1;
+    --fr-color: #111;
+    --bg-color: #ddd;
+
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: --font-family;
+    scrollbar-gutter: stable both-edges;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ddd;
+    margin: 0;
+    $size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
