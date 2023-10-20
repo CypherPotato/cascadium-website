@@ -11,25 +11,21 @@ main {
         $location: 25% auto;
         $size: 10% 100%;
 
-        > .contents {
-            position: fixed;
+        > .logo {
+            margin-bottom: 10px;
 
-            > .logo {
-                margin-bottom: 10px;
+            > img {
+                width: 100%;
+                height: auto;
+            }
 
-                > img {
-                    width: 100%;
-                    height: auto;
-                }
-
-                > h1 {
-                    text-align: center;
-                    text-transform: lowercase;
-                    font-size: 22px;
-                    font-weight: 600;
-                    color: #333;
-                    text-shadow: 0 2px 0 #eee;
-                }
+            > h1 {
+                text-align: center;
+                text-transform: lowercase;
+                font-size: 22px;
+                font-weight: 600;
+                color: #333;
+                text-shadow: 0 2px 0 #eee;
             }
         }
     }
