@@ -1,7 +1,7 @@
 <?php
 
 define('APP_ROOT', __DIR__);
-define('NO_CACHE', 1);
+define('NO_CACHE', 2);
 
 require "./lib/fw.php";
 

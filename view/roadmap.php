@@ -24,6 +24,18 @@
                     <tbody>
                         <tr>
                             <td>
+                                <b>Output per-file:</b> generate multiple output files
+                                instead a single one.
+                            </td>
+                            <td>
+                                Q4'2023
+                            </td>
+                            <td>
+                                Researching
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 <b>Beta launch:</b> release the first
                                 beta version.
                             </td>
@@ -36,8 +48,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <b>Source map generation:</b> generate source-map files
-                                compatible with most source map readers.
+                                <b>Linter:</b> bring an simple linter to
+                                identify syntax errors and warnings.
                             </td>
                             <td>
                                 Q2'2024
@@ -48,11 +60,11 @@
                         </tr>
                         <tr>
                             <td>
-                                <b>Output per-file:</b> generate multiple output files
-                                instead a single one.
+                                <b>Source map generation:</b> generate source-map files
+                                compatible with most source map readers.
                             </td>
                             <td>
-                                Q4'2023
+                                Q2'2024
                             </td>
                             <td>
                                 Researching

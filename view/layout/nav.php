@@ -29,6 +29,9 @@
                 options & features
             </a>
             <div class="sub-items">
+                <a href="#Configurationfile">
+                    Config JSON
+                </a>
                 <a href="#Pretty">
                     Pretty
                 </a>
@@ -37,6 +40,9 @@
                 </a>
                 <a href="#Merge">
                     Merge
+                </a>
+                <a href="#MergeOrderPriority">
+                    Merge-Order-Priority
                 </a>
                 <a href="#UseVarShortcut">
                     Use-Var-Shortcut

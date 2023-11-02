@@ -10,7 +10,7 @@
             <section>
                 <h1>Hello, Cascadium!</h1>
                 <p>
-                    Cascadium is an pre-processor for the CSS styling language.
+                    Cascadium is an experimental high performance pre-processor for the CSS styling language.
                 </p>
                 <p>
                     This small module can compile CSS with the following
@@ -18,7 +18,8 @@
                 </p>
                 <p>
                     It is written in C#, built to run in any operating
-                    system without .NET installed. Also, it's source code is open-source.
+                    system without .NET installed thanks to Native AOT. Also, it's source code
+                    is open-source.
                 </p>
                 <p>
                     Some of what it can do:
