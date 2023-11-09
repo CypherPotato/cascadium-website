@@ -9,9 +9,6 @@
         <div class="contents">
             <section>
                 <h1>Playground</h1>
-                <p>
-                    Cascadium is an independent study maintained by just one person. No guarantees are promised here.
-                </p>
                 <div class="playground">
                     <pre id="highlight" aria-hidden="true">
                         <code class="language-scss" id="highlighting-content"></code>
@@ -64,6 +61,7 @@ div {
                     target.value = target.value.substr(0, start) + "    " + target.value.substr(end);
                     target.selectionStart = target.selectionEnd = start + 4;
 
+                    invokeHighlighter();
                     e.preventDefault();
                 }
             }, false);
