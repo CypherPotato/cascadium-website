@@ -50,7 +50,7 @@ div {
             </section>
         </div>
         <script>
-            const API_ENDPOINT = "https://cascadium.project-principium.dev/";
+            const API_ENDPOINT = "https://xcss.project-principium.dev/";
             var intervalToken = 0;
             document.getElementById("input").addEventListener('keydown', e => {
                 let {
