@@ -1,0 +1,59 @@
+.playground {
+    display: block;
+    border: 1px solid gainsboro;
+    height: 80svh;
+    position: relative;
+
+    --font-size: 14px;
+    --font-family: 'Consolas', 'Courier New', Courier, monospace;
+
+    > textarea {
+        border: none;
+        padding: 10px;
+        font-family: --font-family;
+        resize: none;
+        outline: none;
+        font-size: --font-size;
+    }
+
+    > * {
+        height: 100%;
+        max-height: initial !important;
+    }
+
+    #input {
+        color: transparent;
+        background-color: transparent;
+        caret-color: black;
+        border-right: 1px solid gainsboro !important;
+    }
+
+    #input,
+    #highlight,
+    #output-wrapper {
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        border: 0;
+        width: 50%;
+        overflow: auto;
+        white-space: nowrap;
+
+        &,
+        * {
+            font-size: --font-size;
+            font-family: --font-family;
+            line-height: 1.7;
+        }
+    }
+
+    #input,
+    #highlight {
+        left: 0;
+        top: 0;
+    }
+
+    #output-wrapper {
+        right: 0;
+    }
+}

@@ -60,6 +60,11 @@
                 roadmap
             </a>
         </div>
+        <div class="item" <?= $page == 'playground' ? 'active' : '' ?>>
+            <a href="/playground">
+                playground
+            </a>
+        </div>
         <div class="label">
             useful links
         </div>
